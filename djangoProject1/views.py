@@ -9,8 +9,8 @@ def about(request):
     return render(request, "about.html")
 
 def contact(request):
-    return render(request, "contact us.html")
+    return render(request, "contactus.html")
 
 
 def accounts(request):
-    return  render(request,"accounts.html")
+    return render(request,"accounts.html")
